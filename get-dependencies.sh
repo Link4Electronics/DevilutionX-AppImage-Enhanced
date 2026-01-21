@@ -6,7 +6,12 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm pipewire-jack
+pacman -Syu --noconfirm pipewire-jack \
+    fmt         \
+    libsodium   \
+    sdl2-compat \
+    sdl2_image  \
+    simpleini
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
