@@ -6,7 +6,9 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm cmake \
+pacman -Syu --noconfirm \
+    cmake       \
+    libdecor    \
     ninja       \
     fmt         \
     libsodium   \
