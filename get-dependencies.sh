@@ -12,7 +12,7 @@ pacman -Syu --noconfirm \
     ninja       \
     fmt         \
     libsodium   \
-    sdl2-compat \
+    sdl2        \
     sdl2_image
 
 echo "Installing debloated packages..."
